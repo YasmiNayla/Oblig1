@@ -8,13 +8,14 @@
 <body>
 
 <h1>Ordering of Tickets</h1>
-<p> Choose movie: </p>
-<p>Amount</p>
+<p> Choose movie: <input type="Name" onchange="showName(this.value);"/> </p>
+<p>Amount <input type="Amount" onchange="showAmount(this.value);"/> </p>
+
 <br>
-<p>First name</p>
-<p>Surname</p>
-<p>Telephone nr</p>
-<p>Email</p>
+<p>First name <input type="text" id="Name" onchange="showName(this.value);"/> </p>
+<p>Surname <input type="text" id="Surname" onchange="showSurname(this.value);"/> </p>
+<p>Telephone nr <input type="text" id="PhoneNr" onchange="showPhoneNr(this.value);"/> </p>
+<p>Email <input type="text" id="Email" onchange="showEmail(this.value);"/> </p>
 <button>Buy Ticket</button>
 <br>
 <h2>All tickets</h2>
