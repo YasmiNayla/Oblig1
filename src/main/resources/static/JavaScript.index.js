@@ -3,11 +3,23 @@ function choose(movies){
     alert ("You will watch: "+ document.getElementById("movies").value);
 }
 
-function showName() {
-    document.getElementByld = function (name) {
+function showAmount() {
+    document.getElementById = function (Amount) {
 
     };
-    let name = document.getElementByld("name").value;
+    let Amount = document.getElementById("Amount").value;
+    if (Amount >= 1){
+        return true;
+    } else {
+        alert("Invalid Order: write a minimum of 1 tickets);
+    }
+}
+
+function showName() {
+    document.getElementById = function (name) {
+
+    };
+    let name = document.getElementById("name").value;
     if (name >= 3){
         return true;
     } else {
@@ -16,10 +28,10 @@ function showName() {
 }
 
 function showSurname() {
-    document.getElementByld = function (surname) {
+    document.getElementById = function (surname) {
 
     };
-    let surname = document.getElementByld("surname").value;
+    let surname = document.getElementById("surname").value;
     if (surname >= 3){
         return true;
     } else {
@@ -28,10 +40,10 @@ function showSurname() {
 }
 
 function showPhoneNr() {
-    document.getElementByld = function (PhoneNr) {
+    document.getElementById = function (PhoneNr) {
 
     };
-    let PhoneNumber = document.getElementByld("PhoneNumber").value;
+    let PhoneNumber = document.getElementById("PhoneNumber").value;
     if (PhoneNumber >= 8){
         return true;
     } else {
@@ -40,10 +52,10 @@ function showPhoneNr() {
 }
 
 function Email() {
-    document.getElementByld = function (Email) {
+    document.getElementById = function (Email) {
 
     };
-    let Email = document.getElementByld("Email").value;
+    let Email = document.getElementById("Email").value;
     if (Email >= 2 + "@" + 2 + "." + 2){
         return true;
     } else {

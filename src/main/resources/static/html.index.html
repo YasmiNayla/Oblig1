@@ -19,17 +19,18 @@
 </select>
 </p>
 
-<p>Amount <input type="text" id="Amount" onchange="(showAmount(this.value))";/>
-    <label for="Amount"> </label> </p>
+<p>Amount <label for="Amount"> </label> <input type="text" id="Amount"
+onchange="showAmount(this.value);/> </p>
 
 <br>
-<p>First name <input type="text" id="Name" onchange=(showName(this.value(Name)+"checkName()");">
-    <label for="Name"> </label> </p>
-<p>Surname <input type="text" id="Surname" onchange="showSurname(this.value(Surname)+"checkSurname()");"/>
-    <label for="Surname"> </label> </p>
-<p>Telephone nr <input type="text" id="PhoneNumber" onchange="showPhoneNumber(this.value(PhoneNumber)+"checkPhoneNr()");"/>
-    <label for="PhoneNumber"> </label> </p>
-<p>Email <input type="text" id="Email" onchange="showEmail(this.value(Email)+"checkEmail()");"/> </p>
+<p>First name <label for="Name"> </label> <input type="text" id="Name" onchange="showName(this.value(Name)+checkName())" ;/>
+</p>
+<p>Surname <label for="Surname"> </label> <input type="text" id="Surname" onchange="showSurname(this.value(Surname)+checkSurname())";/>
+</p>
+<p>Telephone nr <input type="text" id="PhoneNumber" onchange="showPhoneNumber(this.value(PhoneNumber)+checkPhoneNr());"/>
+</p>
+<p>Email <label for="Email"> </label> <input type="text" id="Email" onchange="showEmail(this.value(Email)+checkEmail());"/>
+</p>
 <button>Buy Ticket</button>
 <br>
 <h2>All tickets</h2>
