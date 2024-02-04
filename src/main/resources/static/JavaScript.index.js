@@ -1,12 +1,17 @@
+
+function choose(movies){
+    alert ("You will watch: "+ document.getElementById("movies").value);
+}
+
 function showName() {
     document.getElementByld = function (name) {
 
     };
     let name = document.getElementByld("name").value;
-    if (name == text){
+    if (name >= 3){
         return true;
     } else {
-        alert("You have to write the name you have on your Identification Card";
+        alert("You have to write the name you have on your Identification Card");
     }
 }
 
@@ -15,10 +20,10 @@ function showSurname() {
 
     };
     let surname = document.getElementByld("surname").value;
-    if (surname == text){
+    if (surname >= 3){
         return true;
     } else {
-        alert("You have to write the surname you have on your Identification Card";
+        alert("You have to write the surname you have on your Identification Card");
     }
 }
 
@@ -26,11 +31,11 @@ function showPhoneNr() {
     document.getElementByld = function (PhoneNr) {
 
     };
-    let PhoneNr = document.getElementByld("PhoneNr").value;
-    if (PhoneNr == numbers){
+    let PhoneNumber = document.getElementByld("PhoneNumber").value;
+    if (PhoneNumber >= 8){
         return true;
     } else {
-        alert("The phone number is invalid, to get your buying confirmation write inn a valid phone number";
+        alert("The phone number is invalid, to get your buying confirmation write inn a valid phone number");
     }
 }
 
@@ -39,10 +44,10 @@ function Email() {
 
     };
     let Email = document.getElementByld("Email").value;
-    if (Email == text){
+    if (Email >= 2 + "@" + 2 + "." + 2){
         return true;
     } else {
-        alert("The email is invalid, to get your tickets write inn a valid email";
+        alert("The email is invalid, to get your tickets write inn a valid email");
     }
 }
 

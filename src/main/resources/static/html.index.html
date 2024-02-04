@@ -8,14 +8,28 @@
 <body>
 
 <h1>Ordering of Tickets</h1>
-<p> Choose movie: <input type="Name" onchange="showName(this.value);"/> </p>
-<p>Amount <input type="Amount" onchange="showAmount(this.value);"/> </p>
+<p> Choose movie:  <select id="movies" onchange="choose();">
+    <option>Avatar I</option>
+    <option>Avatar II</option>
+    <option>The Joker</option>
+    <option>Pulp Fiction</option>
+    <option>Matrix I</option>
+    <option>Matrix II</option>
+    <option>Matrix III</option>
+</select>
+</p>
+
+<p>Amount <input type="text" id="Amount" onchange="(showAmount(this.value))";/>
+    <label for="Amount"> </label> </p>
 
 <br>
-<p>First name <input type="text" id="Name" onchange="showName(this.value);"/> </p>
-<p>Surname <input type="text" id="Surname" onchange="showSurname(this.value);"/> </p>
-<p>Telephone nr <input type="text" id="PhoneNr" onchange="showPhoneNr(this.value);"/> </p>
-<p>Email <input type="text" id="Email" onchange="showEmail(this.value);"/> </p>
+<p>First name <input type="text" id="Name" onchange=(showName(this.value(Name)+"checkName()");">
+    <label for="Name"> </label> </p>
+<p>Surname <input type="text" id="Surname" onchange="showSurname(this.value(Surname)+"checkSurname()");"/>
+    <label for="Surname"> </label> </p>
+<p>Telephone nr <input type="text" id="PhoneNumber" onchange="showPhoneNumber(this.value(PhoneNumber)+"checkPhoneNr()");"/>
+    <label for="PhoneNumber"> </label> </p>
+<p>Email <input type="text" id="Email" onchange="showEmail(this.value(Email)+"checkEmail()");"/> </p>
 <button>Buy Ticket</button>
 <br>
 <h2>All tickets</h2>
