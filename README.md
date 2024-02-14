@@ -4,3 +4,4 @@ To start with I have experienced a lot of troubles at connecting my repository t
 
 When it comes to coding I started off with making the html page and the JS page. Then I wrote inside the <head> tags of the html page the source link so the JavaScript page is connected to the html page. Thereafter I wrote the basic html code asked for on the first example picture of the oblig assignment. 
 
+navn, student num, (id info)
