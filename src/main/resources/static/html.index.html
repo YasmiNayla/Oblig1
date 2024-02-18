@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://bootswatch.com/api/5.json" />
     <title>Oblig1</title>
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="JavaScript.index.js"></script>
 </head>
 <body>
 
 <h1>Ordering of Tickets</h1>
-<h1> 1, 2, 3... trying...</h1>
-<p> hhhahahaha blablabla </p>
-<div id="MoviesSelect">
-<p> Choose movie:  <select id="movies" onchange="choose();">
+
+<div id="persRegister">
+<p> Choose movie:  <select id="Movie" onchange="choose();">
     <option>Avatar I</option>
     <option>Avatar II</option>
     <option>The Joker</option>
@@ -22,23 +24,33 @@
 </select>
 </p>
 </div>
-<p>Amount <label for="Amount"> </label> <input type="text" id="Amount"
-onchange="showAmount(this.value);/> </p>
 
+
+<p>Amount <input type="text" id="Amount" onchange="showAmount(this.value).val()> </p>
 <br>
+
+<div id="userRegister">
 <p>First name <label for="Name"> </label> <input type="text" id="Name" onchange="showName(this.value(Name)+checkName())" ;/>
 </p>
 <p>Surname <label for="Surname"> </label> <input type="text" id="Surname" onchange="showSurname(this.value(Surname)+checkSurname())";/>
 </p>
-<p>Telephone nr <input type="text" id="PhoneNumber" onchange="showPhoneNumber(this.value(PhoneNumber)+checkPhoneNr());"/>
+<p>Your Phone Number <input type="text" id="PhoneNr" onchange="showPhoneNr(this.value(PhoneNr)+checkPhoneNr());"/>
 </p>
 <p>Email <label for="Email"> </label> <input type="text" id="Email" onchange="showEmail(this.value(Email)+checkEmail());"/>
 </p>
-<button>Buy Ticket</button>
+</div>
+
+<button onclick="registerBuy()"> <strong> Buy Ticket </strong> </button>
+
 <br>
+
 <h2>All tickets</h2>
 <br>
-<button>Delete all tickets</button>
+
+<div id="deleteAll">
+<button onclick="clearAll()"> Delete all tickets </button>
+</div>
+
 
 </body>
 </html>
